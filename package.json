@@ -4,7 +4,7 @@
   "description": "backend for specter",
   "scripts": {
     "build": "tsc -p .",
-    "watch": "ts-node-dev --respawn ./src/index.dev.ts"
+    "watch": "ts-node-dev --respawn ./src/index.ts"
   },
   "repository": {
     "type": "git",
