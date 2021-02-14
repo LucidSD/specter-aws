@@ -14,7 +14,7 @@
   },  
   "include": [  
     "src/**/*.ts", "src/**/*.js", "test/**/*.ts",
-    ".eslintrc.js"
+    ".eslintrc.js", "index.dev.ts"
   ],  
   "exclude": [  
     "node_modules"

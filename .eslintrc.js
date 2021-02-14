@@ -15,6 +15,7 @@ module.exports = {
     project: './tsconfig.json',
   },
   rules: {
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
     funcNameMatching: ['off'],
     // Prefer single quotes for strings
     quotes: ['error', 'single', { avoidEscape: false }],
