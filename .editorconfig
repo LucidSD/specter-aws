@@ -1,0 +1,12 @@
+root = true
+
+[*]
+charset = utf-8
+
+[{*.js,*.mjs,*.json,*.ts}]
+indent_style = space
+indent_size = 2
+
+[{package.json,package-lock.json}]
+indent_style = space
+indent_size = 2
