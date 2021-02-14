@@ -1,22 +1,29 @@
-{  
-  "compilerOptions": {  
-  "target": "es6",  
-    "module": "commonjs",  
-    "rootDir": "src",  
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "rootDir": "./src/*",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "skipLibCheck": true,
     "outDir": "dist",
-  "allowSyntheticDefaultImports": true,  
-    "sourceMap": true,  
-  "noImplicitAny": true,
-  "moduleResolution": "node",
-    "resolveJsonModule": true,  
-    "lib": ["es6", "dom"],  
-    "esModuleInterop": true  
-  },  
-  "include": [  
-    "src/**/*.ts", "src/**/*.js", "test/**/*.ts",
-    ".eslintrc.js", "index.dev.ts"
-  ],  
-  "exclude": [  
-    "node_modules"
-  ]  
-} 
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "lib": ["es6", "dom"],
+    "esModuleInterop": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.js",
+    "test/**/*.ts",
+    ".eslintrc.js",
+    "src/index.dev.ts"
+  ],
+  "exclude": ["node_modules"]
+}
