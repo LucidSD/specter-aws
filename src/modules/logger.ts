@@ -27,17 +27,17 @@ const myCustomLevels = {
 };
 winston.addColors(myCustomLevels.colors);
 
-const stderrLevels = new Set();
-Object.keys(myCustomLevels.levels).forEach((level) => {
-  if (myCustomLevels.levels[level] < myCustomLevels.levels.INFO) {
-    stderrLevels.add(level);
-  }
-});
+// const stderrLevels = new Set();
+// Object.keys(myCustomLevels.levels).forEach((level) => {
+//   if (myCustomLevels.levels[level] < myCustomLevels.levels.INFO) {
+//     stderrLevels.add(level);
+//   }
+// });
 
 const loggerFormat = winston.format.combine(
   winston.format.timestamp({ format: 'HH:mm:ss' }),
   winston.format.splat(),
-  winston.format.printf((info: any) => `[${info.timestamp}] ${info.level}: ${info.message}`),
+  winston.format.prettyPrint(),
 
 );
 
@@ -51,7 +51,6 @@ const consoleLoggerFormat = winston.format.combine(
 const logger = winston.createLogger({
   levels: myCustomLevels.levels,
   level: 'INFO',
-  stderrLevels,
   transports: [
     //
     // - Write all logs with level `error` and below to `error.log`
@@ -66,20 +65,18 @@ const logger = winston.createLogger({
 const log = (level: any, msg: any, data: any) => {
   let logMessage;
   let logData;
-
-  if (typeof msg === 'string') {
-    logMessage = msg;
-    logData = data;
-  } else {
+  if (msg instanceof Error) {
     logData = serializeError(msg);
     logMessage = logData.stack || logData.message || '';
     delete logData.message;
     delete logData.stack;
+  } else {
+    logMessage = msg;
+    logData = data;
   }
-  logger.log(level, logMessage, logData);
+  logger.log(level, msg, data);
 };
 
-log('INFO', 'test message %s', 'my string');
 
 const requestLogConfig = {
   winstonInstance: logger,

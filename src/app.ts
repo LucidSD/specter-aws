@@ -1,9 +1,10 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable @typescript-eslint/no-unused-vars */
-const logger = require('./modules/logger');
+
 const express = require('express');
 
 const dotenv = require('dotenv');
+const logger = require('./utils/loggerHelpers');
 
 dotenv.config();
 
@@ -13,7 +14,6 @@ const movieRoute = require('./api/movie/movieRoute');
 // app.use(morgan('dev'));
 app.use('/movie', movieRoute);
 app.use(express.json());
-// logger.info('test');
 app.get('/', (req:any, res: any) => {
   res.json({
     message: '🦄🌈✨👋🌎🌍🌏✨🌈🦄',
@@ -25,7 +25,14 @@ app.get('/', (req:any, res: any) => {
 
 // app.use(middlewares.notFound);
 // app.use(middlewares.errorHandler);
-
+logger.warn('Warning Message! %j', {
+  addlInfo1: 'Some helpful text',
+  addlInfo2: 12345,
+  addlInfo3: {
+    nestedInfo: 'BAM',
+  },
+});
+logger.info('starting server');
 const port = process.env.PORT || 3000;
 const server = app.listen(port, () => {
   /* eslint-disable no-console */

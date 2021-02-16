@@ -4,7 +4,8 @@
   "description": "backend for specter",
   "scripts": {
     "build": "tsc -p .",
-    "watch": "ts-node-dev --respawn ./src/app.ts"
+    "watch": "ts-node-dev --respawn ./src/app.ts",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -35,9 +36,16 @@
     "node-fetch": "^2.6.1",
     "prettier": "^2.2.1",
     "serialize-error": "^8.0.1",
+    "supertest": "^6.1.3",
     "ts-jest": "^26.5.1",
     "ts-node-dev": "~1.1.1",
     "typescript": "^4.1.5",
     "winston": "^3.3.3"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
   }
 }
