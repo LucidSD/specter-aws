@@ -6,7 +6,7 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
-    "strict": true,
+    "strict": false,
     "strictPropertyInitialization": false,
     "skipLibCheck": true,
     "outDir": "dist",
@@ -22,7 +22,8 @@
     "src/**/*.ts",
     "src/**/*.js",
     "test/**/*.ts",
-    ".eslintrc.js"
+    ".eslintrc.js",
+    "index.d.ts"
   ],
   "exclude": ["node_modules"]
 }
