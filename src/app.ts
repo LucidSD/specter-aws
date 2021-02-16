@@ -1,37 +1,36 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import express = require('express');
-import movieEndpoint from './endpoints/movieEndPoint';
+const logger = require('./modules/logger');
+const express = require('express');
+
+const dotenv = require('dotenv');
+
+dotenv.config();
 
 const app = express();
-app.set('trust proxy', 1);
 
+const movieRoute = require('./api/movie/movieRoute');
 // app.use(morgan('dev'));
-// app.use(helmet());
-// app.use(express.json());
-
-app.get('/', (req, res) => {
+app.use('/movie', movieRoute);
+app.use(express.json());
+// logger.info('test');
+app.get('/', (req:any, res: any) => {
   res.json({
     message: '🦄🌈✨👋🌎🌍🌏✨🌈🦄',
   });
 });
 
-// app.get('/movie', async (req, res) => {
-//   const movie = movieEndpoint;
-//   const movieDetails = await movie.getDetails({ pathParameters: { movie_id: 384018 } });
-//   res.json(movieDetails);
-// });
-
-app.get('/movie/:id', async (req, res) => {
-  const movie = movieEndpoint;
-  console.log(`movie id: ${req.params.id}`);
-  const movieDetails = await movie.getDetails({ pathParameters: { movie_id: req.params.id } });
-  res.json(movieDetails);
-});
 
 // app.use('/api/v1', api);
 
 // app.use(middlewares.notFound);
 // app.use(middlewares.errorHandler);
 
-module.exports = app;
+const port = process.env.PORT || 3000;
+const server = app.listen(port, () => {
+  /* eslint-disable no-console */
+  console.log(`Listening: http://localhost:${port}`);
+  /* eslint-enable no-console */
+});
+
+export {};

@@ -1,6 +1,6 @@
-import createEndpoints from '../utils/createEndpoints';
+import createEndpoints from '../../utils/createEndpoints';
 
-import { RequestOption } from '../utils/interfaces';
+import { RequestOption } from '../../utils/interfaces';
 
 const endpointBaseURL = 'movie';
 
