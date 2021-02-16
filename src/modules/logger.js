@@ -1,11 +1,6 @@
 const winston = require('winston');
 const expressWinston = require('express-winston');
-import { serializeError } from 'serialize-error';
-
-/* eslint-disable object-curly-newline */
-interface LogLevels {
-  [index: string]: number
-}
+const serializeError = require('serialize-error');
 
 const myCustomLevels = {
   levels: {
@@ -15,7 +10,7 @@ const myCustomLevels = {
     INFO: 3,
     DEBUG: 4,
     TRACE: 5,
-  } as LogLevels,
+  },
   colors: {
     FATAL: 'red bold',
     ERROR: 'red',
@@ -44,7 +39,7 @@ const loggerFormat = winston.format.combine(
 const consoleLoggerFormat = winston.format.combine(
   winston.format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss' }),
   winston.format.splat(),
-  winston.format.printf((info: any) => `[${info.timestamp}] ${info.level}: ${info.message}`),
+  winston.format.printf((info) => `[${info.timestamp}] ${info.level}: ${info.message}`),
   winston.format.colorize({ all: true }),
 );
 
@@ -62,7 +57,7 @@ const logger = winston.createLogger({
   ],
 });
 
-const log = (level: any, msg: any, data: any) => {
+const log = (level, msg, data) => {
   let logMessage;
   let logData;
   if (msg instanceof Error) {
@@ -74,9 +69,8 @@ const log = (level: any, msg: any, data: any) => {
     logMessage = msg;
     logData = data;
   }
-  logger.log(level, msg, data);
+  logger.log(level, logMessage, logData);
 };
-
 
 const requestLogConfig = {
   winstonInstance: logger,

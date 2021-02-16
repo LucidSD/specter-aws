@@ -1,7 +1,7 @@
-export default (endpoint: string, params: Record<string, string>): string => {
+module.exports = (endpoint, params) => {
   const regExp = /{(.+?)}/;
   let parsedEndpoint = endpoint;
-  let match: RegExpExecArray | null = regExp.exec(parsedEndpoint);
+  let match = regExp.exec(parsedEndpoint);
 
   while (match) {
     parsedEndpoint = parsedEndpoint.replace(match[0], params[match[1]]);
