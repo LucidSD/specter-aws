@@ -1,11 +1,12 @@
 const parseEndpoint = require('./parseEndpoint');
 const request = require('./requests');
-const logger = require('../utils/loggerHelpers');
+const logger = require('./loggerHelpers');
 
-const createEndpoint = function (type, endpointUrl) {
-  logger.debug('creating endpoint...');
+const createEndpoint = (type, endpointUrl) => {
+  logger.info('creating endpoint...');
   return async (options) => {
     let response;
+    let responseJSON;
     let parsedEndpoint;
     if (options.pathParameters) {
       parsedEndpoint = parseEndpoint(endpointUrl, options.pathParameters);
@@ -15,12 +16,12 @@ const createEndpoint = function (type, endpointUrl) {
       case 'GET': {
         logger.debug(`GET REQUEST ${parsedEndpoint}`);
         response = await request(parsedEndpoint)
-          .then((res) => res.json());
+        responseJSON = await response.json();
         break;
       }
     }
     return {
-      data: response,
+      data: responseJSON,
     };
   };
 };

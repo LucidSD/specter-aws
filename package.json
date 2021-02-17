@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "backend for specter",
   "scripts": {
-    "start": "nodemon src/app.js",
-    "test": "jest",
-    "lint": "eslint src/app.js"
+    "start": "nodemon src/index.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",

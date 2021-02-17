@@ -1,11 +1,14 @@
-const fetch = require('node-fetch');
 const dotenv = require('dotenv');
+const fetch = require('node-fetch');
+const logger = require('./loggerHelpers');
 
+const baseUrl = process.env.TMDB_BASE_URL;
 dotenv.config();
 
 const request = (url) => {
-  const baseUrl = 'https://api.themoviedb.org/3/';
-  const response = fetch(`${baseUrl}${url}?api_key=${process.env.API_KEY}`);
+  
+  logger.debug(`${baseUrl}${url}?api_key=${process.env.API_KEY}`);
+  const response = fetch(`${baseUrl}/${url}?api_key=${process.env.API_KEY}`);
   return response;
 };
 

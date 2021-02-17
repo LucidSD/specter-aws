@@ -12,4 +12,8 @@ const debug = (msg, data) => {
   log('DEBUG', msg, data);
 };
 
-module.exports = { info, warn, debug };
+const error = (msg, data) => {
+  log('ERROR', msg, data);
+};
+
+module.exports = { info, warn, debug, error };
