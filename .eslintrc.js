@@ -50,4 +50,9 @@ module.exports = {
 		
 		'class-methods-use-this': ['off'],
   },
+  env: {
+		node: true,
+		es6: true,
+		jest: true,
+	},
 };

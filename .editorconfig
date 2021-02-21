@@ -7,6 +7,6 @@ charset = utf-8
 indent_style = space
 indent_size = 2
 
-[{package.json,package-lock.json}]
+[{*.json}]
 indent_style = space
 indent_size = 2

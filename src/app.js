@@ -1,17 +1,18 @@
-const logger = require('./utils/loggerHelpers');
-const express = require('express');
-
 const dotenv = require('dotenv');
+const express = require('express');
+const logger = require('./utils/loggerHelpers');
 
 dotenv.config();
 
 const run = async() => {
   const app = express();
-  const movieRoute = require('./api/movie/movieRoute');
-
+  const movieRoute = require('./routes/movieRoute');
+  const panelRoute = require('./routes/panelRoute');
   app.use(express.json());
+  app.use('/panel', panelRoute);
   app.use('/movie', movieRoute);
 
+  
   app.get('/', (req, res) => {
     res.json({
       message: '🦄🌈✨👋🌎🌍🌏✨🌈🦄',
@@ -24,13 +25,8 @@ const run = async() => {
     logger.info(`Listening: http://localhost:${port}`);
   });
 
-  
-  
   // app.use(morgan('dev'));
   
-
-  // app.use('/api/v1', api);
-
   // app.use(middlewares.notFound);
   // app.use(middlewares.errorHandler);
 }

@@ -1,4 +1,4 @@
-const createEndpointUrls = require('../../utils/createEndPoints');
+const createEndpointUrls = require('../utils/createEndPoints');
 
 const endpointUrlBaseURL = 'movie';
 
