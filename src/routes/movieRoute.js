@@ -1,6 +1,7 @@
 const router = require('express').Router();
-const movieEndpoint = require('../endpoints/movieEndPoint');
+const movieEndpoint = require('../endpoints/movieEndpoint');
 const logger = require('../utils/loggerHelpers')
+
 const movie = movieEndpoint;
 
 router.get('/', async (req, res) => {
