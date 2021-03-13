@@ -13,6 +13,7 @@ const run = async () => {
   const app = express();
   const movieRoute = require('./routes/movieRoute');
   const panelRoute = require('./routes/panelRoute');
+  const searchRoute = require('./routes/searchRoute');
   const testRoute = require('./routes/testRoute')
   app.use(express.json());
   // app.use('/panel',  cache.route(), panelRoute);
@@ -20,6 +21,7 @@ const run = async () => {
   
   app.use('/panel', panelRoute);
   app.use('/movie', movieRoute);
+  app.use('/search', searchRoute);
   app.use('/test', testRoute);
   // app.get('/', greet);
 

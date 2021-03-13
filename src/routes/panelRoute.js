@@ -14,7 +14,7 @@ router.get('/', async (req, res) => {
     // merge list
     results = await discover.getMovies(
       { 
-        query: { 
+        urlParams: { 
           sort_by: 'popularity.desc',
           append_to_response: 'images'
         }

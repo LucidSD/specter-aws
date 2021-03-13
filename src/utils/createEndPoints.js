@@ -10,7 +10,7 @@ const createEndpoint = (type, endpointUrl) => {
   logger.info('creating endpoint...');
   
   return async (options) => {
-    const query = new URLSearchParams({
+    const urlParams = new URLSearchParams({
       api_key: process.env.API_KEY
     });
     let response;
@@ -20,16 +20,16 @@ const createEndpoint = (type, endpointUrl) => {
       parsedEndpoint = parseEndpoint(endpointUrl, options.pathParameters);
     }
     // logger.debug(JSON.stringify(options.query))
-    if(options.query) {
-      Object.entries(options.query).forEach(([key, value]) => {
-        query.append(key,value)
+    if(options.urlParams) {
+      Object.entries(options.urlParams).forEach(([key, value]) => {
+        urlParams.append(key,value)
       })
     }
     
     switch (type) {
       case 'GET': {
-        logger.info(`GET REQUEST ${parsedEndpoint} params: ${query.toString()}`);
-        response = await request(parsedEndpoint || endpointUrl, query.toString() )
+        logger.info(`GET REQUEST ${parsedEndpoint} params: ${urlParams.toString()}`);
+        response = await request(parsedEndpoint || endpointUrl, urlParams.toString() )
         body = await response.json();
         logger.debug(JSON.stringify(body));
         break;
