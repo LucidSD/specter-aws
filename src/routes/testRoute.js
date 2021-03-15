@@ -4,6 +4,7 @@ const logger = require('../utils/loggerHelpers')
 const movieMock = require('../../tests/mocks/movieMock.json');
 const discoverMock = require('../../tests/mocks/discoverMock.json');
 const trendingMock = require('../../tests/mocks/trendingMock.json');
+const searchMock = require('../../tests/mocks/searchMock.json');
 
 
 router.get('/movie', async (req, res) => {
@@ -14,6 +15,8 @@ router.get('/movie', async (req, res) => {
   } else if (req.query.panel === 'trending') {
     res.send(trendingMock);
   }
+}).get('/search', async (req, res) => {
+  res.send(searchMock);
 });
 
 module.exports = router;
