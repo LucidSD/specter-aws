@@ -49,6 +49,15 @@ module.exports = {
 
     'class-methods-use-this': ['off'],
   },
+  'overrides': [{
+    'files': [ 
+      '*/types/*/*.js',
+      '*/resolvers/*/*.js'  
+     ],
+    'rules': {
+      'import/prefer-default-export': 'off'
+    }
+  }],
   env: {
     node: true,
     es6: true,

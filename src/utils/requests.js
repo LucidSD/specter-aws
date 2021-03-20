@@ -1,6 +1,7 @@
 const fetch = require('node-fetch');
 const logger = require('./loggerHelpers');
-
+const dotenv = require('dotenv');
+dotenv.config();
 const baseUrl = process.env.TMDB_BASE_URL;
 
 const request = (url, query) => {

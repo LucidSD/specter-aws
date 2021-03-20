@@ -1,0 +1,5 @@
+{}
+  "success": true,
+  "session_id": "427e550359bf942742da9c21b8b4a8610962f1de",
+  "url": "https://api.themoviedb.org/3/authentication/session/new?api_key=API_KEY&request_token=REQUEST_TOKEN"
+}

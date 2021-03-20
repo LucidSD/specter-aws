@@ -1,12 +1,10 @@
 const router = require('express').Router();
 
-const discoverEndpoint = require('../endpoints/discoverEndpoint');
-const trendingEndpoint = require('../endpoints/trendingEndpoint');
+const discover = require('../endpoints/discoverEndpoint');
+const trending = require('../endpoints/trendingEndpoint');
 
 
 router.get('/', async (req, res) => {
-  const discover = discoverEndpoint;
-  const trending = trendingEndpoint;
   let results;
   if(req.query.panel === 'popular') {
     // get popular movies

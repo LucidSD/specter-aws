@@ -1,0 +1,18 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "description": "TEST LIST",
+      "favorite_count": 0,
+      "id": 7082262,
+      "item_count": 1,
+      "iso_639_1": "en",
+      "list_type": "movie",
+      "name": "Test List",
+      "poster_path": null
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 1,
+  "url": "https://api.themoviedb.org/3/account/10103212/lists?api_key=API_KEY&language=en-US&session_id=SESSION_ID&page=1"
+}

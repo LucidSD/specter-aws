@@ -1,20 +1,32 @@
 const dotenv = require('dotenv');
 const express = require('express');
-const ExpressRedisCache = require('express-redis-cache')
+const { graphqlHTTP } = require('express-graphql');
+const { makeExecutableSchema } = require('graphql-tools');
+// const ExpressRedisCache = require('express-redis-cache')
 const logger = require('./utils/loggerHelpers');
 
 dotenv.config();
-
+const { typeDefs } = require('./types');
+const { resolvers } = require('./resolvers')
 // const cache = ExpressRedisCache({
 //   expire: 30, // optional: expire every 10 seconds
 // })
 
-const run = async () => {
-  const app = express();
+let server;
+
+
+  
+  const schema = makeExecutableSchema({
+    typeDefs,
+    resolvers,
+    resolverValidationOptions: { requireResolversForResolveType: false }
+  });
   const movieRoute = require('./routes/movieRoute');
   const panelRoute = require('./routes/panelRoute');
   const searchRoute = require('./routes/searchRoute');
   const testRoute = require('./routes/testRoute')
+  const app = express();
+  
   app.use(express.json());
   // app.use('/panel',  cache.route(), panelRoute);
   // app.use('/movie',  cache.route(), movieRoute);
@@ -23,11 +35,15 @@ const run = async () => {
   app.use('/movie', movieRoute);
   app.use('/search', searchRoute);
   app.use('/test', testRoute);
+  app.use('/graphql', graphqlHTTP({
+    schema: schema,
+    graphiql: true,
+  }));
   // app.get('/', greet);
 
   logger.info('starting server');
   const port = process.env.PORT || 3000;
-  app.listen(port, () => {
+  server = app.listen(port, () => {
     logger.info(`Listening: http://localhost:${port}`);
   });
 
@@ -35,5 +51,17 @@ const run = async () => {
   
   // app.use(middlewares.notFound);
   // app.use(middlewares.errorHandler);
-}
-module.exports = { run };
+
+  process.on('SIGTERM', () => {
+    console.info('SIGTERM signal received.');
+    console.log('Closing http server.');
+    server.close(() => {
+      console.log('Http server closed.');
+    });
+  });
+
+  const test = 4;
+  
+
+
+module.exports = server;

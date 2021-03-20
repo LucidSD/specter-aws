@@ -1,0 +1,6 @@
+{
+  "success": true,
+  "expires_at": "2021-03-16 09:28:32 UTC",
+  "request_token": "9877af8cd6933b754a764cafffec444c94df9085",
+  "url": "https://api.themoviedb.org/3/authentication/token/new?api_key=API_KEY"
+}

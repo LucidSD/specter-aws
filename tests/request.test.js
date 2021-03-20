@@ -1,34 +1,51 @@
+// const graphql = require('graphql');
+const { mockServer, makeExecutableSchema, addMocksToSchema } = require('graphql-tools');
+const { graphql } = require('graphql');
+const supertest = require('supertest');
+const { typeDefs } = require('../src/types');
+const { resolvers } = require('../src/resolvers')
+const movieMock = require('./mocks/discoverMock.json');
+const server = require('../src/app');
 
-const {Response} = jest.requireActual('node-fetch');
 
-const movieEndpoint = require('../src/endpoints/movieEndpoint');
-const movieMock = require('./mocks/movieMock');
+// beforeEach((done) => {
+//   console.log('hello')
+//   run();
+// })
 
-beforeAll(() => jest.spyOn(global, 'fetch'))
-
-
-it('Testing movie endpoint', async () => {
-  global.fetch.mockResolvedValue(Promise.resolve(new Response(JSON.stringify(movieMock))));
-
-  const movie = movieEndpoint;
-
-  const movieDetails = await movie.getDetails({ pathParameters: { movie_id: 384018 } });
-  console.log(movieDetails.data);
-  expect(global.fetch).toHaveBeenCalledTimes(1);
-  expect(movieDetails.data.title).toEqual('The Market: A Tale of Trade');
+afterEach((done) => {
+  server.close();
+  done();
 });
 
+// const movieEndpoint = require('../src/endpoints/movieEndpoint');
+// const {Response} = jest.requireActual('node-fetch');
 
-// const discoverEndpoint = require('../src/endpoints/discoverEndpoint');
-// const discoverMock = require('./mocks/discoverMock');
+// beforeAll(() => jest.spyOn(global, 'fetch'))
 
-// it('testing discover endpoint', async () => {
-//   fetch.mockResolvedValue(Promise.resolve(new Response(JSON.stringify(discoverMock))));
+const request = supertest(server);
 
-//   const discover = discoverEndpoint;
-
-//   const discoverMovies = await discover.getMovies({ query: { sort_by: 'popularity.desc',}});
-
-//   expect(fetch).toHaveBeenCalledTimes(1);
-//   expect(discoverMovies.data.results[0].title).toEqual('Space Sweepers');
-// });
+test('Testing getMovieById', (done) => {
+  const movieByIdQuery = `
+    query {
+      getMovieById(movie_id: 384018) {
+        id
+        title
+      }
+    }
+  `;
+  request
+  .post('/graphql')
+  .send({query: movieByIdQuery})
+  .set('Accept', 'application/graphql')
+  .expect(200)
+  .expect('Content-Type', /json/)
+  .end((err, res) => {
+    if (err) {
+      return done(err);
+    }
+    expect(res.body).toBeInstanceOf(Object);
+    expect(res.body.data.getMovieById.id).toEqual('384018');
+    done();
+  })  
+})
