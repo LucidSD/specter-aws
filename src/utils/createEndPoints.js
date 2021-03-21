@@ -25,7 +25,7 @@ const createEndpoint = (type, endpointUrl) => {
     
     switch (type) {
       case 'GET': {
-        logger.debug(`GET REQUEST ${parsedEndpoint} params: ${urlParams.toString()}`);
+        logger.info(`GET REQUEST ${parsedEndpoint} params: ${urlParams.toString()}`);
         response = await request(parsedEndpoint || endpointUrl, urlParams.toString() )
         body = await response.json();
         logger.debug(JSON.stringify(body));

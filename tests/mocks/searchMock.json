@@ -4,556 +4,132 @@
     "results": [
       {
         "adult": false,
-        "backdrop_path": "/54yOImQgj8i85u9hxxnaIQBRUuo.jpg",
+        "backdrop_path": "/75MfI7JslB6p76YRBAXku5IVJb1.jpg",
         "genre_ids": [
-          28,
-          80,
-          18,
-          53
+          35,
+          27
         ],
-        "id": 539885,
+        "id": 27814,
         "media_type": "movie",
         "original_language": "en",
-        "original_title": "Ava",
-        "overview": "A black ops assassin is forced to fight for her own survival after a job goes dangerously wrong.",
-        "popularity": 490.416,
-        "poster_path": "/qzA87Wf4jo1h8JMk9GilyIYvwsA.jpg",
-        "release_date": "2020-07-02",
-        "title": "Ava",
+        "original_title": "Brain Damage",
+        "overview": "A normal, average guy who lives in New York City becomes dependent on an evil, disembodied brain.",
+        "popularity": 9.736,
+        "poster_path": "/nNJbQXlut92RIpcnPyoICzdJvJs.jpg",
+        "release_date": "1988-04-15",
+        "title": "Brain Damage",
         "video": false,
-        "vote_average": 5.6,
-        "vote_count": 1358
+        "vote_average": 6.7,
+        "vote_count": 144
       },
       {
         "adult": false,
-        "backdrop_path": "/daOd8KBGDdsOhVdzXB3KU5fgBd2.jpg",
+        "backdrop_path": null,
         "genre_ids": [
-          18
+          
         ],
-        "id": 453354,
-        "media_type": "movie",
-        "original_language": "fr",
-        "original_title": "Ava",
-        "overview": "Ava, 13, is spending the summer on the Atlantic coast when she learns that she will lose her sight sooner than expected. Her mother decides to act as if everything were normal so as to spend their best summer ever. Ava confronts the problem in her own way. She steals a big black dog that belongs to a young man on the run...",
-        "popularity": 50.041,
-        "poster_path": "/cUI1PFsrQVJR3IZOpkfsOOOUhTO.jpg",
-        "release_date": "2017-06-21",
-        "title": "Ava",
-        "video": false,
-        "vote_average": 6.1,
-        "vote_count": 100
-      },
-      {
-        "adult": false,
-        "gender": 1,
-        "id": 1271474,
-        "known_for": [
-          {
-            "backdrop_path": "/gDmGiZ9iCxUPrdZ7dyNwSPJtFmf.jpg",
-            "first_air_date": "2011-10-23",
-            "genre_ids": [
-              18,
-              10765
-            ],
-            "id": 39272,
-            "media_type": "tv",
-            "name": "Once Upon a Time",
-            "origin_country": [
-              "US"
-            ],
-            "original_language": "en",
-            "original_name": "Once Upon a Time",
-            "overview": "There is a town in Maine where every story book character you've ever known is trapped between two worlds, victims of a powerful curse. Only one knows the truth and only one can break the spell.\n\nEmma Swan is a 28-year-old bail bonds collector who has been supporting herself since she was abandoned as a baby. Things change for her when her son Henry, whom she abandoned years ago, finds her and asks for her help explaining that she is from a different world where she is Snow White's missing daughter.",
-            "poster_path": "/49qD372jeHUTmdNMGJkjCFZdv9y.jpg",
-            "vote_average": 7,
-            "vote_count": 1266
-          },
-          {
-            "backdrop_path": "/wcfErhzLmmeutxAMpbHlR0Naa2q.jpg",
-            "first_air_date": "2015-12-16",
-            "genre_ids": [
-              18,
-              10765
-            ],
-            "id": 64432,
-            "media_type": "tv",
-            "name": "The Magicians",
-            "origin_country": [
-              "US"
-            ],
-            "original_language": "en",
-            "original_name": "The Magicians",
-            "overview": "Brakebills University is a secret institution specializing in magic. There, amidst an unorthodox education of spellcasting, a group of twenty-something friends soon discover that a magical fantasy world they read about as children is all too real— and poses grave danger to humanity.",
-            "poster_path": "/A66dZN98BPEYeFQAhNdNCIXa57d.jpg",
-            "vote_average": 7.7,
-            "vote_count": 1099
-          },
-          {
-            "adult": false,
-            "backdrop_path": "/7HNPNdNNvTQmDATWDmcRJVrv0B2.jpg",
-            "genre_ids": [
-              878,
-              53,
-              18,
-              9648
-            ],
-            "id": 539892,
-            "media_type": "movie",
-            "original_language": "en",
-            "original_title": "Freaks",
-            "overview": "Kept locked inside the house by her father, 7-year-old Chloe lives in fear and fascination of the outside world, where Abnormals create a constant threat - or so she believes. When a mysterious stranger offers her a glimpse of what's really happening outside, Chloe soon finds that while the truth isn't so simple, the danger is very real.",
-            "poster_path": "/kc2cvuqESIiRX5QoZOoMTBq18kQ.jpg",
-            "release_date": "2018-09-08",
-            "title": "Freaks",
-            "video": false,
-            "vote_average": 6.8,
-            "vote_count": 617
-          }
-        ],
-        "known_for_department": "Acting",
-        "media_type": "person",
-        "name": "Ava Telek",
-        "popularity": 13.068,
-        "profile_path": "/tDhmjpB8asgxUI2LGtXz6KGdB2t.jpg"
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/jCli8sIzlJeEiDAFXFdJmLQAj6J.jpg",
-        "genre_ids": [
-          9648,
-          53,
-          27,
-          878
-        ],
-        "id": 323665,
+        "id": 575244,
         "media_type": "movie",
         "original_language": "en",
-        "original_title": "Ava's Possessions",
-        "overview": "Ava is recovering from demonic possession. With no memory of the past month, she must attend a Spirit Possessions Anonymous support group to figure out what happened. Ava's life was hijacked by a demon, now it's time to get it back.",
-        "popularity": 14.691,
-        "poster_path": "/tmTlL0U3NMQFjB1KGnWj2NuAE3g.jpg",
-        "release_date": "2015-03-16",
-        "title": "Ava's Possessions",
+        "original_title": "Brain Damage",
+        "overview": "A new film directed by Ira Cohen and produced by BASTET created from never-before-seen original 16mm outtakes, featuring a new soundtrack composed by Will Swofford with the Expanded Instrument System",
+        "popularity": 0.962,
+        "poster_path": "/d9jy6G0MI9nurUr5KVEkcCU05ud.jpg",
+        "release_date": "2006-01-01",
+        "title": "Brain Damage",
         "video": false,
-        "vote_average": 5.7,
-        "vote_count": 94
+        "vote_average": 0,
+        "vote_count": 0
       },
       {
         "adult": false,
         "gender": 0,
-        "id": 41429,
+        "id": 1285184,
         "known_for": [
           {
-            "backdrop_path": "/nVRyd8hlg0ZLxBn9RaI7mUMQLnz.jpg",
-            "first_air_date": "2005-09-13",
-            "genre_ids": [
-              18,
-              9648,
-              10765
-            ],
-            "id": 1622,
-            "media_type": "tv",
-            "name": "Supernatural",
-            "origin_country": [
-              "US"
-            ],
-            "original_language": "en",
-            "original_name": "Supernatural",
-            "overview": "When they were boys, Sam and Dean Winchester lost their mother to a mysterious and demonic supernatural force. Subsequently, their father raised them to be soldiers. He taught them about the paranormal evil that lives in the dark corners and on the back roads of America ... and he taught them how to kill it. Now, the Winchester brothers crisscross the country in their '67 Chevy Impala, battling every kind of supernatural threat they encounter along the way. ",
-            "poster_path": "/KoYWXbnYuS3b0GyQPkbuexlVK9.jpg",
-            "vote_average": 8.2,
-            "vote_count": 4808
-          },
-          {
-            "backdrop_path": "/h3vViR087OJlk4PedNt5JLIKOOi.jpg",
-            "first_air_date": "2004-11-16",
-            "genre_ids": [
-              18,
-              35,
-              9648
-            ],
-            "id": 1408,
-            "media_type": "tv",
-            "name": "House",
-            "origin_country": [
-              "US"
-            ],
-            "original_language": "en",
-            "original_name": "House",
-            "overview": "Dr. Gregory House, a drug-addicted, unconventional, misanthropic medical genius, leads a team of diagnosticians at the fictional Princeton–Plainsboro Teaching Hospital in New Jersey.",
-            "poster_path": "/lkvhReTBZ2Ksl0Dl5Oplsf6UYkF.jpg",
-            "vote_average": 8.6,
-            "vote_count": 3251
-          },
-          {
             "adult": false,
-            "backdrop_path": "/xEd4sKtyCtm0bnbIwXgWuqZePpl.jpg",
             "genre_ids": [
-              35,
-              10751
+              27,
+              99
             ],
-            "id": 33217,
+            "id": 160202,
             "media_type": "movie",
             "original_language": "en",
-            "original_title": "Diary of a Wimpy Kid",
-            "overview": "Greg Heffley is headed for big things, but first he has to survive the scariest, most humiliating experience of any kid’s life – middle school! That won’t be easy, considering he’s surrounded by hairy-freckled morons, wedgie-loving bullies and a moldy slice of cheese with nuclear cooties!",
-            "poster_path": "/iLAGiPnSuODt9cn332bkFElrRig.jpg",
-            "release_date": "2010-03-19",
-            "title": "Diary of a Wimpy Kid",
+            "original_title": "Traces of Death III",
+            "overview": "The third entry in the shockumentary series.",
+            "poster_path": "/7XCFQsNvhecDaGtc6w1iFuN8Ygd.jpg",
+            "release_date": "1995-01-01",
+            "title": "Traces of Death III",
             "video": false,
-            "vote_average": 6.1,
-            "vote_count": 1057
+            "vote_average": 7,
+            "vote_count": 1
           }
         ],
         "known_for_department": "Acting",
         "media_type": "person",
-        "name": "Ava Hughes",
-        "popularity": 7.059,
-        "profile_path": "/gRxd3V1Xa2OnSrldQs0RokDpFSP.jpg"
+        "name": "Brain Damage",
+        "popularity": 0.6,
+        "profile_path": null
       },
       {
         "adult": false,
-        "gender": 1,
-        "id": 2398197,
+        "gender": 0,
+        "id": 1285190,
         "known_for": [
           {
             "adult": false,
-            "backdrop_path": "/8wfPjfUgmGpqCIW6gS0pS0pixnA.jpg",
             "genre_ids": [
-              35,
-              18,
-              10749
+              27,
+              99
             ],
-            "id": 625450,
+            "id": 160203,
             "media_type": "movie",
             "original_language": "en",
-            "original_title": "Tall Girl",
-            "overview": "Jodi, the tallest girl in her high school, has always felt uncomfortable in her own skin. But after years of slouching, being made fun of, and avoiding attention at all costs, Jodi finally decides to find the confidence to stand tall.",
-            "poster_path": "/m0clsFEXidLVJ0TueqWOvvImOMh.jpg",
-            "release_date": "2019-09-13",
-            "title": "Tall Girl",
+            "original_title": "Traces of Death IV: Resurrected",
+            "overview": "Real-life death footage presented as a gross-out 'shockumentary'.",
+            "poster_path": "/fj2XT9AHYv7jqPZmMVnkY5kvx3t.jpg",
+            "release_date": "1996-01-01",
+            "title": "Traces of Death IV: Resurrected",
             "video": false,
-            "vote_average": 6.4,
-            "vote_count": 1266
-          },
-          {
-            "adult": false,
-            "genre_ids": [],
-            "id": 772272,
-            "media_type": "movie",
-            "original_language": "en",
-            "original_title": "Tall Girl 2",
-            "overview": "Plot currently unknown.",
-            "release_date": "",
-            "title": "Tall Girl 2",
-            "video": false,
-            "vote_average": 0,
-            "vote_count": 0
+            "vote_average": 6.5,
+            "vote_count": 2
           }
         ],
         "known_for_department": "Acting",
         "media_type": "person",
-        "name": "Ava Michelle",
-        "popularity": 4.753,
-        "profile_path": "/lDsBWUw5udOE1CEOp5nASN6QSKJ.jpg"
+        "name": "Brain Damage",
+        "popularity": 0.6,
+        "profile_path": null
       },
       {
         "adult": false,
-        "backdrop_path": "/5ahJnLte5A6pBcsH5Bh5OaifyLt.jpg",
-        "genre_ids": [
-          18
-        ],
-        "id": 460093,
-        "media_type": "movie",
-        "original_language": "en",
-        "original_title": "Frank and Ava",
-        "overview": "Frank & Ava joins the wild ride of the tempestuous relationship between icons, Frank Sinatra and Ava Gardner showing their multi-year love affair and subsequent marriage. In 1949, a downcast Frank, his career on the wane because of a faltering voice, a failing marriage, and a tarnished off-screen reputation falls in love with rising star, Ava, by consensus, the most beautiful woman in Hollywood. While their love was incandescent, they were hapless as a couple; often pursued by reporters such as Hedda Hopper who played them off against each other in the tabloids; casting Frank as an adulterer and Ava as a home wrecker while Frank!s wife, Nancy Barbato, refused to grant him a divorce. Once married in 1951 the tabloids then paraded their sorted affairs whenever their careers separated them. (Often it was Ava who went off to Europe or Africa to make a movie, leaving Frank behind). In the meantime, Frank, career hanging by a thread, is desperately trying to land the acting job that he ...",
-        "popularity": 1.72,
-        "poster_path": "/yVJeAqSgV675LrLgkJnATeTJK0u.jpg",
-        "release_date": "2018-12-07",
-        "title": "Frank and Ava",
-        "video": false,
-        "vote_average": 9,
-        "vote_count": 1
-      },
-      {
-        "adult": false,
-        "gender": 1,
-        "id": 1845710,
+        "gender": 0,
+        "id": 1285198,
         "known_for": [
           {
             "adult": false,
-            "backdrop_path": "/4nQBCGOag82CmkZerbk88A0PKZ8.jpg",
             "genre_ids": [
-              10749,
-              9648,
-              53
+              27,
+              99
             ],
-            "id": 464842,
+            "id": 160204,
             "media_type": "movie",
             "original_language": "en",
-            "original_title": "A Thought of Ecstasy",
-            "overview": "August 2019. Frank recognizes his own story of twenty years ago in a recently published book. He remembers Marie, with whom he had a relationship before she moved to the United States and disappeared from his life. Frank sets out in search of her and finds himself in a USA petrified by a heat wave and lost in suspicion and political paranoia. He heads into the desert in pursuit of Marie.",
-            "poster_path": "/nK6IfnxlX6KTYwqD3OKV1uiaWde.jpg",
-            "release_date": "2018-01-25",
-            "title": "A Thought of Ecstasy",
+            "original_title": "Traces of Death V: Back in Action",
+            "overview": "The fifth sequel of the self-proclamed \"first true shockumentary\" series, dealing mostly with real life graphic violence and its aftermath caught on video.",
+            "poster_path": "/pfFTm0tmuzCPKzaz9f1502wVGKc.jpg",
+            "release_date": "2000-01-01",
+            "title": "Traces of Death V: Back in Action",
             "video": false,
-            "vote_average": 4.4,
-            "vote_count": 8
+            "vote_average": 7,
+            "vote_count": 1
           }
         ],
         "known_for_department": "Acting",
         "media_type": "person",
-        "name": "Ava Verne",
-        "popularity": 5.179,
-        "profile_path": "/z4iPnqYCXaExKLWg3NAr2Q3QDDD.jpg"
-      },
-      {
-        "adult": false,
-        "gender": 1,
-        "id": 104920,
-        "known_for": [
-          {
-            "adult": false,
-            "backdrop_path": "/nBX9JINWuOI6jdLXUsPA1vYrP5l.jpg",
-            "genre_ids": [
-              28,
-              35,
-              80
-            ],
-            "id": 10023,
-            "media_type": "movie",
-            "original_language": "en",
-            "original_title": "Dragnet",
-            "overview": "LAPD Sgt. Joe Friday -- the equally straight-laced nephew of the famous police sergeant of the same name -- is paired up with a young, freewheeling detective named Pep Streebeck. After investigating some strange robberies at the local zoo and the theft of a stockpile of pornographic magazines, they uncover cult activity in the heart of the city and are hot on the case to figure out who's behind it all.",
-            "poster_path": "/2AqQGyY5yM8PCOGxWsMNlegTnDp.jpg",
-            "release_date": "1987-06-23",
-            "title": "Dragnet",
-            "video": false,
-            "vote_average": 6,
-            "vote_count": 302
-          },
-          {
-            "backdrop_path": "/fDiilwYIVnqEJxDjZ0OMxZMz2Uk.jpg",
-            "first_air_date": "1998-08-05",
-            "genre_ids": [
-              35
-            ],
-            "id": 61018,
-            "media_type": "tv",
-            "name": "Whose Line Is It Anyway?",
-            "origin_country": [
-              "US"
-            ],
-            "original_language": "en",
-            "original_name": "Whose Line Is It Anyway?",
-            "overview": "The show where everything's made up and the points don't matter. Not a talk show, not a sitcom, not a game show, Whose Line Is It Anyway? is a completely unique concept to network television. Four talented actors perform completely unrehearsed skits and games in front of a studio audience. Host Drew Carey sets the scene, with contributions from the audience, but the actors rely completely on their quick wit and improvisational skills. It's genuinely improvised, so anything can happen - and often does.",
-            "poster_path": "/kuRhXc42nCQU4AiQ8EnZx9lpPcU.jpg",
-            "vote_average": 7.8,
-            "vote_count": 196
-          },
-          {
-            "adult": false,
-            "backdrop_path": "/aVDIOLnuxJoOr546V82nkozSyB0.jpg",
-            "genre_ids": [
-              35,
-              18
-            ],
-            "id": 31923,
-            "media_type": "movie",
-            "original_language": "en",
-            "original_title": "Welcome Home, Roxy Carmichael",
-            "overview": "Movie star Roxy Carmichael is abandoning the bright lights of Hollywood, Calif. and returning to her small Ohio hometown -- at least long enough to dedicate a city building. And now the whole town of Clyde is bracing for Carmichael's return, most of all her now-married old flame Denton Webb and troubled teen Dinky Bossetti. An orphan with few friends, Dinky is convinced that Carmichael is her birth mother, and that the actress will reclaim her when she returns.",
-            "poster_path": "/774bDgRxf7TfNu6E55xBEcw0lME.jpg",
-            "release_date": "1990-10-12",
-            "title": "Welcome Home, Roxy Carmichael",
-            "video": false,
-            "vote_average": 6.4,
-            "vote_count": 66
-          }
-        ],
-        "known_for_department": "Acting",
-        "media_type": "person",
-        "name": "Ava Fabian",
-        "popularity": 3.95,
-        "profile_path": "/oriv80WcJeAsxXlkg0zqlQxmc0X.jpg"
-      },
-      {
-        "adult": false,
-        "gender": 1,
-        "id": 2267329,
-        "known_for": [
-          {
-            "adult": false,
-            "backdrop_path": "/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
-            "genre_ids": [
-              12,
-              878,
-              28
-            ],
-            "id": 299534,
-            "media_type": "movie",
-            "original_language": "en",
-            "original_title": "Avengers: Endgame",
-            "overview": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
-            "poster_path": "/ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg",
-            "release_date": "2019-04-24",
-            "title": "Avengers: Endgame",
-            "video": false,
-            "vote_average": 8.3,
-            "vote_count": 17368
-          }
-        ],
-        "known_for_department": "Acting",
-        "media_type": "person",
-        "name": "Ava Russo",
-        "popularity": 4.617,
-        "profile_path": "/jssOgVKWEQwE68B7iyeGdr0pVOW.jpg"
-      },
-      {
-        "adult": false,
-        "gender": 1,
-        "id": 1885200,
-        "known_for": [
-          {
-            "backdrop_path": "/nVRyd8hlg0ZLxBn9RaI7mUMQLnz.jpg",
-            "first_air_date": "2005-09-13",
-            "genre_ids": [
-              18,
-              9648,
-              10765
-            ],
-            "id": 1622,
-            "media_type": "tv",
-            "name": "Supernatural",
-            "origin_country": [
-              "US"
-            ],
-            "original_language": "en",
-            "original_name": "Supernatural",
-            "overview": "When they were boys, Sam and Dean Winchester lost their mother to a mysterious and demonic supernatural force. Subsequently, their father raised them to be soldiers. He taught them about the paranormal evil that lives in the dark corners and on the back roads of America ... and he taught them how to kill it. Now, the Winchester brothers crisscross the country in their '67 Chevy Impala, battling every kind of supernatural threat they encounter along the way. ",
-            "poster_path": "/KoYWXbnYuS3b0GyQPkbuexlVK9.jpg",
-            "vote_average": 8.2,
-            "vote_count": 4852
-          },
-          {
-            "backdrop_path": "/8vNQ3i2Xa3mrCKn6eq2ce5hhegT.jpg",
-            "first_air_date": "2019-10-06",
-            "genre_ids": [
-              10759,
-              10765,
-              9648,
-              80
-            ],
-            "id": 89247,
-            "media_type": "tv",
-            "name": "Batwoman",
-            "origin_country": [
-              "US"
-            ],
-            "original_language": "en",
-            "original_name": "Batwoman",
-            "overview": "Kate Kane, armed with a passion for social justice and a flair for speaking her mind, soars onto the streets of Gotham as Batwoman, an out lesbian and highly trained street fighter primed to snuff out the failing city's criminal resurgence. But don't call her a hero yet. In a city desperate for a savior, Kate must overcome her own demons before embracing the call to be Gotham's symbol of hope",
-            "poster_path": "/xjyEpcuDbB1jy0ehNQMBiO8KOdr.jpg",
-            "vote_average": 7.3,
-            "vote_count": 959
-          },
-          {
-            "backdrop_path": "/8TOkxONO3TEeJRuZWb0hG7SboyV.jpg",
-            "first_air_date": "2019-11-01",
-            "genre_ids": [
-              18,
-              10765,
-              10759
-            ],
-            "id": 80752,
-            "media_type": "tv",
-            "name": "See",
-            "origin_country": [
-              "US"
-            ],
-            "original_language": "en",
-            "original_name": "See",
-            "overview": "A virus has decimated humankind. Those who survived emerged blind. Centuries later when twins are born with the mythic ability to see, their father must protect his tribe against a threatened queen.",
-            "poster_path": "/g3JsScc7mQCfc3e5e5rXwu7xVVP.jpg",
-            "vote_average": 8,
-            "vote_count": 755
-          }
-        ],
-        "known_for_department": "Acting",
-        "media_type": "person",
-        "name": "Ava Sleeth",
-        "popularity": 4.214,
-        "profile_path": "/lBtiFbS0PB6gq4ZrSlC1PN6p9FF.jpg"
-      },
-      {
-        "adult": false,
-        "gender": 1,
-        "id": 1258895,
-        "known_for": [
-          {
-            "backdrop_path": "/qyDlF1U1yayXIUniECmGA1oBwZy.jpg",
-            "first_air_date": "2011-06-23",
-            "genre_ids": [
-              18
-            ],
-            "id": 37680,
-            "media_type": "tv",
-            "name": "Suits",
-            "origin_country": [
-              "US"
-            ],
-            "original_language": "en",
-            "original_name": "Suits",
-            "overview": "While running from a drug deal gone bad, Mike Ross, a brilliant young college-dropout, slips into a job interview with one of New York City's best legal closers, Harvey Specter. Tired of cookie-cutter law school grads, Harvey takes a gamble by hiring Mike on the spot after he recognizes his raw talent and photographic memory.",
-            "poster_path": "/vQiryp6LioFxQThywxbC6TuoDjy.jpg",
-            "vote_average": 7.9,
-            "vote_count": 1960
-          },
-          {
-            "backdrop_path": "/x4lxFIhhrDI4nWtV8osnYwbGESV.jpg",
-            "first_air_date": "2009-09-23",
-            "genre_ids": [
-              35
-            ],
-            "id": 1421,
-            "media_type": "tv",
-            "name": "Modern Family",
-            "origin_country": [
-              "US"
-            ],
-            "original_language": "en",
-            "original_name": "Modern Family",
-            "overview": "The Pritchett-Dunphy-Tucker clan is a wonderfully large and blended family. They give us an honest and often hilarious look into the sometimes warm, sometimes twisted, embrace of the modern family.",
-            "poster_path": "/fu5vEUHgxkAPmX26ISQXqHmlPMq.jpg",
-            "vote_average": 7.6,
-            "vote_count": 1319
-          },
-          {
-            "backdrop_path": "/nlDBlCtorM7nx130wYnfR5ZmyLX.jpg",
-            "first_air_date": "2017-09-25",
-            "genre_ids": [
-              35
-            ],
-            "id": 71728,
-            "media_type": "tv",
-            "name": "Young Sheldon",
-            "origin_country": [
-              "US"
-            ],
-            "original_language": "en",
-            "original_name": "Young Sheldon",
-            "overview": "The early life of child genius Sheldon Cooper, later seen in The Big Bang Theory.",
-            "poster_path": "/aESxB2HblKlDzma39xVefa20pbW.jpg",
-            "vote_average": 8,
-            "vote_count": 1147
-          }
-        ],
-        "known_for_department": "Acting",
-        "media_type": "person",
-        "name": "Ava Allan",
-        "popularity": 4.154,
-        "profile_path": "/fz7oTsBGWChftLDfMnouXm3Csk3.jpg"
+        "name": "Brain Damage",
+        "popularity": 0.6,
+        "profile_path": null
       },
       {
         "adult": false,
@@ -561,334 +137,124 @@
         "genre_ids": [
           99
         ],
-        "id": 437443,
+        "id": 457135,
         "media_type": "movie",
         "original_language": "en",
-        "original_title": "13th: A Conversation with Oprah Winfrey & Ava DuVernay",
-        "overview": "In this 30-minute interview, Oprah Winfrey sits down with director Ava DuVernay to discuss her Oscar-nominated film, historical cycles of oppression and the broken prison system.",
-        "popularity": 5.372,
-        "poster_path": "/f7q7IxU1VR6inD7gcsve0vBhZOs.jpg",
-        "release_date": "2017-01-26",
-        "title": "13th: A Conversation with Oprah Winfrey & Ava DuVernay",
-        "video": false,
-        "vote_average": 6.8,
-        "vote_count": 12
-      },
-      {
-        "adult": false,
-        "gender": 1,
-        "id": 1723918,
-        "known_for": [
-          {
-            "adult": false,
-            "backdrop_path": "/qwgGtdlLMKYvT2tV8hLY22syRHN.jpg",
-            "genre_ids": [
-              28,
-              35,
-              14
-            ],
-            "id": 287947,
-            "media_type": "movie",
-            "original_language": "en",
-            "original_title": "Shazam!",
-            "overview": "A boy is given the ability to become an adult superhero in times of need with a single magic word.",
-            "poster_path": "/xnopI5Xtky18MPhK40cZAGAOVeV.jpg",
-            "release_date": "2019-03-29",
-            "title": "Shazam!",
-            "video": false,
-            "vote_average": 7.1,
-            "vote_count": 6167
-          },
-          {
-            "backdrop_path": "/4YnAZ1KO9goeS4c06VO7HXiO3oO.jpg",
-            "first_air_date": "2014-07-13",
-            "genre_ids": [
-              878,
-              18,
-              9648
-            ],
-            "id": 47640,
-            "media_type": "tv",
-            "name": "The Strain",
-            "origin_country": [
-              "US"
-            ],
-            "original_language": "en",
-            "original_name": "The Strain",
-            "overview": "A high concept thriller that tells the story of Dr. Ephraim Goodweather, the head of the Center for Disease Control Canary Team in New York City. He and his team are called upon to investigate a mysterious viral outbreak with hallmarks of an ancient and evil strain of vampirism. As the strain spreads, Eph, his team, and an assembly of everyday New Yorkers, wage war for the fate of humanity itself.",
-            "poster_path": "/2BWErT9QcADpf2G4BZ769eSnFTP.jpg",
-            "vote_average": 7.4,
-            "vote_count": 1052
-          },
-          {
-            "backdrop_path": "/i6ldRILWxlmxdN3vvNxya2s3lXU.jpg",
-            "first_air_date": "2013-04-15",
-            "genre_ids": [
-              18,
-              10765
-            ],
-            "id": 51704,
-            "media_type": "tv",
-            "name": "Defiance",
-            "origin_country": [
-              "US"
-            ],
-            "original_language": "en",
-            "original_name": "Defiance",
-            "overview": "In the near future, planet Earth is permanently altered following the sudden—and tumultuous—arrival of seven unique alien races. In the boom-town of Defiance, the newly-formed civilization of humans and aliens must learn to co-exist peacefully.",
-            "poster_path": "/1LnkD9QZWo2dPoB82f8jyRk9ukh.jpg",
-            "vote_average": 6.8,
-            "vote_count": 311
-          }
-        ],
-        "known_for_department": "Acting",
-        "media_type": "person",
-        "name": "Ava Preston",
-        "popularity": 3.965,
-        "profile_path": "/npwnZYMM4qfPXkNcOcLJ86cES79.jpg"
-      },
-      {
-        "adult": false,
-        "gender": 1,
-        "id": 25787,
-        "known_for": [
-          {
-            "adult": false,
-            "backdrop_path": "/hhxrMW0WY30ulaCGMu5mVezktHQ.jpg",
-            "genre_ids": [
-              35,
-              9648
-            ],
-            "id": 9442,
-            "media_type": "movie",
-            "original_language": "en",
-            "original_title": "Dead Men Don't Wear Plaid",
-            "overview": "Juliet Forrest is convinced that the reported death of her father in a mountain car crash was no accident. Her father was a prominent cheese scientist working on a secret recipe. To prove it was murder, she enlists the services of private eye Rigby Reardon. He finds a slip of paper containing a list of people who are 'The Friends and Enemies of Carlotta'.",
-            "poster_path": "/pjqnVq8DevXTrjplhWOqNS7y75v.jpg",
-            "release_date": "1982-05-21",
-            "title": "Dead Men Don't Wear Plaid",
-            "video": false,
-            "vote_average": 6.6,
-            "vote_count": 226
-          },
-          {
-            "adult": false,
-            "backdrop_path": "/eHntkxgTcLHxYCTusHNJndwDkpV.jpg",
-            "genre_ids": [
-              80,
-              9648,
-              53
-            ],
-            "id": 14638,
-            "media_type": "movie",
-            "original_language": "en",
-            "original_title": "The Killers",
-            "overview": "Two hit men walk into a diner asking for a man called \"the Swede\". When the killers find the Swede, he's expecting them and doesn't put up a fight. Since the Swede had a life insurance policy, an investigator, on a hunch, decides to look into the murder. As the Swede's past is laid bare, it comes to light that he was in love with a beautiful woman who may have lured him into pulling off a bank robbery overseen by another man.",
-            "poster_path": "/uXnuc6pW01s1MDwb6QwBWg2JQeX.jpg",
-            "release_date": "1946-08-28",
-            "title": "The Killers",
-            "video": false,
-            "vote_average": 7.3,
-            "vote_count": 215
-          },
-          {
-            "adult": false,
-            "backdrop_path": "/lUw93bQlNe9H1mUwDH5MBSmUPhp.jpg",
-            "genre_ids": [
-              28,
-              18,
-              53
-            ],
-            "id": 11123,
-            "media_type": "movie",
-            "original_language": "en",
-            "original_title": "Earthquake",
-            "overview": "Various interconnected people struggle to survive when an earthquake of unimaginable magnitude hits Los Angeles, California.",
-            "poster_path": "/oQU4ibX2ROGZcl5dUzC08fDCnuW.jpg",
-            "release_date": "1974-01-01",
-            "title": "Earthquake",
-            "video": false,
-            "vote_average": 6.1,
-            "vote_count": 198
-          }
-        ],
-        "known_for_department": "Acting",
-        "media_type": "person",
-        "name": "Ava Gardner",
-        "popularity": 3.546,
-        "profile_path": "/4wpCcL2zFgP0K5bhY79Dl7zO60K.jpg"
-      },
-      {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [
-          18
-        ],
-        "id": 686905,
-        "media_type": "movie",
-        "original_language": "fa",
-        "original_title": "Ava",
-        "overview": "Ava's story that enters a park",
-        "popularity": 0.84,
-        "poster_path": "/stqmG3hxIYT7KOkXzVaR6o7GuHe.jpg",
-        "release_date": "",
-        "title": "Ava",
+        "original_title": "Listen to the Light: The Making of 'Brain Damage'",
+        "overview": "54-minute long documentary on the making of Frank Henenlotter's cult classic, Brain Damage.",
+        "popularity": 1.196,
+        "poster_path": "/xQIVr8qiCHIW4BCcKN5cSQNqIKc.jpg",
+        "release_date": "2017-05-08",
+        "title": "Listen to the Light: The Making of 'Brain Damage'",
         "video": false,
         "vote_average": 0,
         "vote_count": 0
       },
       {
         "adult": false,
-        "gender": 1,
-        "id": 1831583,
+        "gender": 2,
+        "id": 100386,
         "known_for": [
+          {
+            "adult": false,
+            "genre_ids": [
+              35,
+              27
+            ],
+            "id": 30384,
+            "media_type": "movie",
+            "original_language": "en",
+            "original_title": "Zombies Anonymous: Last Rites of the Dead",
+            "overview": "In an imagined reality where zombies coexist with ordinary mortal folk, the undead are considered second-class citizens. Angela finds this out the hard way when she's shot by her boyfriend and must learn to adjust to her new zombie lifestyle. She tempers her hunger for human flesh with Zombies Anonymous meetings and tries to pass for living in the mortal world.",
+            "poster_path": "/cwdXmjMd9WUMwxN4yNT3lNsz5sA.jpg",
+            "release_date": "2006-10-21",
+            "title": "Zombies Anonymous: Last Rites of the Dead",
+            "video": false,
+            "vote_average": 4.2,
+            "vote_count": 17
+          },
           {
             "adult": false,
             "genre_ids": [
               99
             ],
-            "id": 541150,
+            "id": 160200,
             "media_type": "movie",
             "original_language": "en",
-            "original_title": "The Dark Side of Hollywood",
-            "overview": "Behind the scenes of Hollywood's low-budget movie industry. It is a powerful portrait of the fragility of fame and the cost of stardom. B-pictures have long been the spawning ground of today's and tomorrow's stars. They started the careers of Jack Nicholson and Sylvester Stallone among many others, as well as now super star directors Francis Ford Coppola, Peter Bogdanovich, Ron Howard and James Cameron. The film examines the evolution of starry-eyed newcomers arriving in Hollywood and discovering the harsh reality of getting into pictures.",
-            "poster_path": "/3J7gPSqW5WtKx2E1qX6L3hXF2rm.jpg",
-            "release_date": "1998-05-13",
-            "title": "The Dark Side of Hollywood",
+            "original_title": "Traces of Death",
+            "overview": "This successor to \"Faces of Death\" collection is a collection of archive film and borrowed stock footage. In its opening you see the death of a woman named Maritza Martin, who was gunned down by her ex-husband on Spanish language television. We then witness British SAS troopers storming the Iranian Embassy in 1980, this is followed by a police chase of a criminal in a pick up truck and the deadly finale. It then goes to footage of animal experiments with a grizzly scene of a live pig being burned alive with a torch. Autopsy footage is then shown of an Asian individual. We are then shown a very graphic presentation on a male to female sex change operation. One interesting scene has a man who had his nasal cavity removed and replaced with a prosthetic, the footage is most interesting and worth the price of admission.",
+            "poster_path": "/nO229nPayqIExen8csCNyTppyml.jpg",
+            "release_date": "1993-01-01",
+            "title": "Traces of Death",
             "video": false,
-            "vote_average": 0,
-            "vote_count": 0
-          },
-          {
-            "first_air_date": "2000-09-18",
-            "genre_ids": [
-              10767
-            ],
-            "id": 45573,
-            "media_type": "tv",
-            "name": "Men Are from Mars, Women Are from Venus",
-            "origin_country": [
-              "US"
-            ],
-            "original_language": "en",
-            "original_name": "Men Are from Mars, Women Are from Venus",
-            "overview": "",
-            "vote_average": 0,
-            "vote_count": 0
-          }
-        ],
-        "known_for_department": "Acting",
-        "media_type": "person",
-        "name": "Ava Cadell",
-        "popularity": 2.943,
-        "profile_path": "/unfgwwQZA02fGVdsbbyXnlBBLGF.jpg"
-      },
-      {
-        "adult": false,
-        "backdrop_path": null,
-        "genre_ids": [],
-        "id": 597953,
-        "media_type": "movie",
-        "original_language": "de",
-        "original_title": "Ava",
-        "overview": "",
-        "popularity": 0.645,
-        "poster_path": "/bX75TMhxEL1nc84XyfTHeI4xVCP.jpg",
-        "release_date": "2017-06-18",
-        "title": "Ava",
-        "video": false,
-        "vote_average": 7,
-        "vote_count": 1
-      },
-      {
-        "adult": false,
-        "gender": 1,
-        "id": 1508532,
-        "known_for": [
-          {
-            "adult": false,
-            "backdrop_path": "/kttkW0qMv4quwRH5a59gQMFrpl2.jpg",
-            "genre_ids": [
-              35
-            ],
-            "id": 4258,
-            "media_type": "movie",
-            "original_language": "en",
-            "original_title": "Scary Movie 5",
-            "overview": "Home with their newly-formed family, happy parents Dan and Jody are haunted by sinister, paranormal activities. Determined to expel the insidious force, they install security cameras and discover their family is being stalked by an evil dead demon.",
-            "poster_path": "/2uXj7DCoSknaUzIHJ3F460Z7t24.jpg",
-            "release_date": "2013-04-11",
-            "title": "Scary Movie 5",
-            "video": false,
-            "vote_average": 4.8,
-            "vote_count": 2035
+            "vote_average": 3.8,
+            "vote_count": 8
           },
           {
             "adult": false,
-            "backdrop_path": "/PwI3EfasE9fVuXsmMu9ffJh0Re.jpg",
             "genre_ids": [
               27,
-              9648,
-              53
+              9648
             ],
-            "id": 406563,
+            "id": 297727,
             "media_type": "movie",
             "original_language": "en",
-            "original_title": "Insidious: The Last Key",
-            "overview": "Parapsychologist Elise Rainier and her team travel to Five Keys, NM, to investigate a man’s claim of a haunting. Terror soon strikes when Rainier realizes that the house he lives in was her family’s old home.",
-            "poster_path": "/nb9fc9INMg8kQ8L7sE7XTNsZnUX.jpg",
-            "release_date": "2018-01-03",
-            "title": "Insidious: The Last Key",
+            "original_title": "Curse of Pirate Death",
+            "overview": "Over a century ago Pirate's Point was overrun by pirates, led by Abraham LeVoy, who became known as Pirate Death. He looted from the town, slaughtering over 150 men, women and children and then hid the treasure. To this day the vile putrid stench of Pirate Death can be smelled as he roams Pirate's Point protecting the precious treasure. Unaware of the terrifying and tortuous nature of Pirate Death, a group of college students researching their \"pirate\" heritage decide to locate the hidden treasure of Pirate Death. Will anyone survive the Curse of Pirate Death?  - Written by Brain Damage Films",
+            "release_date": "2006-11-04",
+            "title": "Curse of Pirate Death",
             "video": false,
-            "vote_average": 6.2,
-            "vote_count": 1956
-          },
-          {
-            "adult": false,
-            "backdrop_path": "/nN4Gs3vZAOJ1D6FRtrwbU9VGYwU.jpg",
-            "genre_ids": [
-              16,
-              10749,
-              10751
-            ],
-            "id": 486589,
-            "media_type": "movie",
-            "original_language": "en",
-            "original_title": "Red Shoes And The Seven Dwarfs",
-            "overview": "Princes who have been turned into Dwarfs seek the red shoes of a lady in order to break the spell, although it will not be easy.",
-            "poster_path": "/MBiKqTsouYqAACLYNDadsjhhC0.jpg",
-            "release_date": "2019-07-25",
-            "title": "Red Shoes And The Seven Dwarfs",
-            "video": false,
-            "vote_average": 7.5,
-            "vote_count": 580
+            "vote_average": 4,
+            "vote_count": 3
           }
         ],
-        "known_for_department": "Acting",
+        "known_for_department": "Production",
         "media_type": "person",
-        "name": "Ava Kolker",
-        "popularity": 2.602,
-        "profile_path": "/qfuE5b4PNwVHKi1TweMIRdRwzx7.jpg"
+        "name": "Darrin Ramage",
+        "popularity": 0.6,
+        "profile_path": null
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/Amr5K2Gs8wiyA6t1O77IIiLupnq.jpg",
+        "genre_ids": [
+          27,
+          878
+        ],
+        "id": 42477,
+        "media_type": "movie",
+        "original_language": "en",
+        "original_title": "Brain of Blood",
+        "overview": "Amir, the benevolent ruler of Kalid, is dying, but there is hope. Freshly deceased, he is flown to the United States where Dr. Trenton transplants his brain into the body of a simpleton in a classic \"assistant got the wrong kind of body\" plot line. Dr. Trenton has a few nefarious plot twists of his own in mind, and then there's the thing with the dwarf and the women chained in the basement. It's up to Amir's friend Bob and wife Tracey to try and salvage this tale.",
+        "popularity": 5.534,
+        "poster_path": "/uFu2R2VYy9gdgBn8iM2e9lyFNVP.jpg",
+        "release_date": "1971-08-01",
+        "title": "Brain of Blood",
+        "video": false,
+        "vote_average": 2.2,
+        "vote_count": 19
       },
       {
         "adult": false,
         "backdrop_path": null,
-        "genre_ids": [],
-        "id": 70052,
+        "genre_ids": [
+          
+        ],
+        "id": 71160,
         "media_type": "movie",
         "original_language": "en",
-        "original_title": "Ava's Magical Adventure",
-        "overview": "Eddie is a 10-year-old girl who runs away from home with her best friend Ava, a 2-ton circus elephant. They are pursued by everyone from the police to the circus' owner",
-        "popularity": 5.992,
-        "poster_path": null,
-        "release_date": "1998-01-01",
-        "title": "Ava's Magical Adventure",
+        "original_title": "Sinbad: Brain Damaged",
+        "overview": "Stand-up TV movie starring comedian Sinbad.",
+        "popularity": 1.373,
+        "poster_path": "/2hXCWKRHuzox2NQxxylwrhr07vH.jpg",
+        "release_date": "1990-01-01",
+        "title": "Sinbad: Brain Damaged",
         "video": false,
-        "vote_average": 5,
-        "vote_count": 1
+        "vote_average": 6,
+        "vote_count": 3
       }
     ],
-    "total_pages": 67,
-    "total_results": 1337
+    "total_pages": 1,
+    "total_results": 9
   }
 }

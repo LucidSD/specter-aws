@@ -7,7 +7,12 @@ const resolvers = {
       try {
         const movieDetails = await movieEndpoint.getDetails(
           { 
-            pathParameters: { movie_id: 384018 }
+            pathParameters: { 
+              movie_id: args.movie_id,
+            },
+            urlParams: { 
+              append_to_response: 'videos'
+            }
         });
         return movieDetails.data;
       } catch(e) {
@@ -15,15 +20,19 @@ const resolvers = {
       }
     }
   },
-  // List: {
-  //   createList: (obj, args) => {
-  //     try {
-  //       const response = listEndpoint.create();
-  //       return response.data
-  //     } catch(e) {
-  //       console.log('BOO HOOOOO');
-  //     }
-  //   }
+  // Movie: {
+  //   credit: async (parent, args) => {
+  //     const movieDetails = await movieEndpoint.getDetails(
+  //       { 
+  //         pathParameters: { 
+  //           movie_id: args.movie_id,
+  //         },
+  //         urlParams: { 
+  //           append_to_response: 'videos'
+  //         }
+  //     });
+  //     return movieDetails.data;
+  //   },
   // }
 }
 

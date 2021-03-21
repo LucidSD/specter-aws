@@ -17,21 +17,14 @@ const typeDefs = `
     iso_639_1: String!
     name: String!
   }
-  enum StatusMovie {
-    Rumored
-    Planned
-    InProduction
-    PostProduction
-    Released
-    Canceled
-  }
+  
   type MovieCast {
-    cast_id: Int!
-    character: String!
-    credit_id: String!
-    department: String!
-    gender: Int
     id: ID!
+    adult: Boolean!
+    gender: Int
+    character: String!
+    cast_id: String!
+    department: String!
     job: String!
     name: String!
     profile_path: String
@@ -91,20 +84,7 @@ const typeDefs = `
     iso_3166_1: String!
     release_dates: [ReleaseDate!]
   }
-  enum VideoType {
-    TRAILER
-    TEASER
-    CLIP
-    FEATURETTE
-    BEHIND_THE_SCENES
-    BLOOPERS
-  }
-  enum VideoSize {
-    PX_360
-    PX_480
-    PX_720
-    PX_1080
-  }
+  
   type TranslationData {
     title: String!
     overview: String!
@@ -123,8 +103,11 @@ const typeDefs = `
     key: String!
     name: String!
     site: String!
-    size: VideoSize
-    type: VideoType
+    size: Int!
+    type: String!
+  }
+  type Videos {
+    results: [Video]
   }
   type Movie {
     adult: Boolean!
@@ -151,12 +134,12 @@ const typeDefs = `
     revenue: Int!
     runtime: Int
     spokenLanguages: [SpokenLanguage]
-    status: StatusMovie!
+    status: String!
     tagline: String
     translations: [Translation!]!
     title: String
     video: Boolean
-    videos: [Video]
+    videos: Videos
     vote_average: Int!
     vote_count: Int!
   }

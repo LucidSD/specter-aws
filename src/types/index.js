@@ -1,5 +1,6 @@
 const lists = require('./lists');
-const movies = require('./movies');
+const movie = require('./movie');
+const search = require('./search');
 
 
 const root = `
@@ -8,5 +9,5 @@ const root = `
   }
 `;
 
-const typeDefs = [root, movies];
+const typeDefs = [root, movie, ...search];
 module.exports = { typeDefs };

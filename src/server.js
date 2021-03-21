@@ -12,38 +12,36 @@ const { resolvers } = require('./resolvers')
 //   expire: 30, // optional: expire every 10 seconds
 // })
 
-let server;
-
-
-  
+ 
   const schema = makeExecutableSchema({
     typeDefs,
     resolvers,
     resolverValidationOptions: { requireResolversForResolveType: false }
   });
-  const movieRoute = require('./routes/movieRoute');
-  const panelRoute = require('./routes/panelRoute');
-  const searchRoute = require('./routes/searchRoute');
-  const testRoute = require('./routes/testRoute')
+  // const movieRoute = require('./routes/movieRoute');
+  // const panelRoute = require('./routes/panelRoute');
+  // const searchRoute = require('./routes/searchRoute');
+  // const testRoute = require('./routes/testRoute')
+  
   const app = express();
   
   app.use(express.json());
   // app.use('/panel',  cache.route(), panelRoute);
   // app.use('/movie',  cache.route(), movieRoute);
   
-  app.use('/panel', panelRoute);
-  app.use('/movie', movieRoute);
-  app.use('/search', searchRoute);
-  app.use('/test', testRoute);
+  // app.use('/panel', panelRoute);
+  // app.use('/movie', movieRoute);
+  // app.use('/search', searchRoute);
+  // app.use('/test', testRoute);
   app.use('/graphql', graphqlHTTP({
-    schema: schema,
+    schema,
     graphiql: true,
   }));
   // app.get('/', greet);
 
   logger.info('starting server');
   const port = process.env.PORT || 3000;
-  server = app.listen(port, () => {
+  const server = app.listen(port, () => {
     logger.info(`Listening: http://localhost:${port}`);
   });
 
@@ -59,9 +57,5 @@ let server;
       console.log('Http server closed.');
     });
   });
-
-  const test = 4;
-  
-
 
 module.exports = server;

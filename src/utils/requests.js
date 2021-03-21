@@ -5,7 +5,7 @@ dotenv.config();
 const baseUrl = process.env.TMDB_BASE_URL;
 
 const request = (url, query) => {
-  logger.debug(`fetching: ${baseUrl}/${url}}?${query}`);
+  logger.info(`fetching: ${baseUrl}/${url}}?${query}`);
   return fetch(`${baseUrl}/${url}?${query}`);
 };
 

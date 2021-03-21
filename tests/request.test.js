@@ -5,7 +5,9 @@ const supertest = require('supertest');
 const { typeDefs } = require('../src/types');
 const { resolvers } = require('../src/resolvers')
 const movieMock = require('./mocks/discoverMock.json');
-const server = require('../src/app');
+const server = require('../src/server');
+
+// const request = require('../src/utils/requests');
 
 
 // beforeEach((done) => {
@@ -13,7 +15,7 @@ const server = require('../src/app');
 //   run();
 // })
 
-afterEach((done) => {
+afterAll((done) => {
   server.close();
   done();
 });
@@ -37,15 +39,39 @@ test('Testing getMovieById', (done) => {
   request
   .post('/graphql')
   .send({query: movieByIdQuery})
-  .set('Accept', 'application/graphql')
+  .set('Accept', 'application/json')
   .expect(200)
-  .expect('Content-Type', /json/)
   .end((err, res) => {
     if (err) {
       return done(err);
     }
-    expect(res.body).toBeInstanceOf(Object);
     expect(res.body.data.getMovieById.id).toEqual('384018');
+    done();
+  })  
+})
+
+test('Testing searching for "Braing Damage"', (done) => {
+  const searchMovieQuery = `
+    query {
+      searchMovies(searchParams: {query: "Brain Damage"}) {
+        results {
+          id
+          title
+          release_date
+        }
+      }
+    }
+  `;
+  request
+  .post('/graphql')
+  .send({query: searchMovieQuery})
+  .set('Accept', 'application/json')
+  .expect(200)
+  .end((err, res) => {
+    if (err) {
+      return done(err);
+    }
+    expect(res.body.data.searchMovies.results[0].title).toEqual('Brain Damage');
     done();
   })  
 })
