@@ -38,7 +38,7 @@ const typeDefs = `
     name: String!
     profile_path: String
   }
-  type MovieCredit {
+  type MovieCredits {
     id: ID!
     cast: [MovieCast!]!
     crew: [MovieCrew!]!
@@ -115,7 +115,7 @@ const typeDefs = `
     backdrop_path: String
     budget: Int
     image: MovieImage
-    credit: MovieCredit
+    credits: MovieCredits
     external_ids: ExternalIds
     keywords: [Keyword!]!
     genres: [Genre!]!
@@ -183,8 +183,12 @@ const typeDefs = `
     name: String
     poster_path: String
   }
+  input AppendSettings {
+    includeCredits: Boolean
+    includeVideos: Boolean
+  }
   extend type Query {
-    getMovieById(movie_id: Int!): Movie
+    movie(movie_id: Int!, appendToResponse: String): Movie
   }
 `;
 

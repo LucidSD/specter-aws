@@ -2,9 +2,9 @@
 const { mockServer, makeExecutableSchema, addMocksToSchema } = require('graphql-tools');
 const { graphql } = require('graphql');
 const supertest = require('supertest');
-const { typeDefs } = require('../src/types');
-const { resolvers } = require('../src/resolvers')
-const movieMock = require('./mocks/discoverMock.json');
+// const { typeDefs } = require('../src/types');
+// const { resolvers } = require('../src/resolvers')
+// const movieMock = require('./mocks/discoverMock.json');
 const server = require('../src/server');
 
 // const request = require('../src/utils/requests');
@@ -53,7 +53,7 @@ test('Testing getMovieById', (done) => {
 test('Testing searching for "Braing Damage"', (done) => {
   const searchMovieQuery = `
     query {
-      searchMovies(searchParams: {query: "Brain Damage"}) {
+      searchMovies(searchParams: {query: "AVA", page: 1}) {
         results {
           id
           title
@@ -71,7 +71,7 @@ test('Testing searching for "Braing Damage"', (done) => {
     if (err) {
       return done(err);
     }
-    expect(res.body.data.searchMovies.results[0].title).toEqual('Brain Damage');
+    expect(res.body.data.searchMovies.results[0].title).toEqual('Ava');
     done();
   })  
 })

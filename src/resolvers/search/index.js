@@ -1,6 +1,5 @@
 /* eslint-disable consistent-return */
 const searchEndpoint = require('../../endpoints/searchEndpoint');
-const discoverEndpoint = require('../../endpoints/discoverEndpoint');
 
 const resolvers = {
   Query: {
@@ -8,7 +7,7 @@ const resolvers = {
       try {
         const searchResults = await searchEndpoint.searchMovies(
           { 
-            urlParams: { query: args.searchParams.query }
+            urlParams: args.searchParams
         });
         return searchResults.data;
       } catch(e) {

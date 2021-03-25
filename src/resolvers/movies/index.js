@@ -1,17 +1,19 @@
 /* eslint-disable consistent-return */
 const movieEndpoint = require('../../endpoints/movieEndpoint');
+const logger = require('../../utils/loggerHelpers');
 
 const resolvers = {
   Query: {
-    getMovieById: async (obj, args) => {
+    movie: async (obj, args) => {
       try {
+        
         const movieDetails = await movieEndpoint.getDetails(
           { 
             pathParameters: { 
               movie_id: args.movie_id,
             },
             urlParams: { 
-              append_to_response: 'videos'
+              append_to_response: args.appendToResponse || ''
             }
         });
         return movieDetails.data;

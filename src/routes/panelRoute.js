@@ -1,7 +1,7 @@
 const router = require('express').Router();
 
 const discover = require('../endpoints/discoverEndpoint');
-const trending = require('../endpoints/trendingEndpoint');
+const trendin?g = require('../endpoints/trendingEndpoint');
 
 
 router.get('/', async (req, res) => {

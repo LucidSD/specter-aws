@@ -16,13 +16,15 @@ const createEndpoint = (type, endpointUrl) => {
     if (options.pathParameters) {
       parsedEndpoint = parseEndpoint(endpointUrl, options.pathParameters);
     }
-    // logger.debug(JSON.stringify(options.query))
+    logger.debug(JSON.stringify(options.urlParams))
     if(options.urlParams) {
       Object.entries(options.urlParams).forEach(([key, value]) => {
+        logger.info(JSON.stringify(value))
+        // logger.info(value)
         urlParams.append(key,value)
       })
     }
-    
+    logger.info(urlParams)
     switch (type) {
       case 'GET': {
         logger.info(`GET REQUEST ${parsedEndpoint} params: ${urlParams.toString()}`);
